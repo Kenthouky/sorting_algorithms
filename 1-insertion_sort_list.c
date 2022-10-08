@@ -1,10 +1,12 @@
 #include "sort.h"
+#include <stdio.h>
 
 /**
- * swap_nodes - Swap two nodes in a listint_t doubly-linked list
- * 
+ * insertion_sort_list - sorts a DLL of integers into
+ * ascending order
+ * @list: doubly linked list
+ * Return: no return
  */
-
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *ptr, *tmp;
